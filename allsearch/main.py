@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()  # Loads .env file
 
 API_KEY = os.getenv("API_KEY")
-CX = os.getenv("CX")
+CX = os.getenv("CX_ALL")
 
 def google_search(word):
     url = "https://www.googleapis.com/customsearch/v1"
